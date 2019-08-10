@@ -1,0 +1,38 @@
+.result{
+    background-color: blue;
+    height: 125px;
+    width: 150px;
+    
+}
+.intro{
+    text-align: left;
+}
+body{
+    background-image: url(assets/images/crystal-ball.jpg);
+    background-size: 100%;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.lblWinningNumber{
+    background-color: deeppink;
+    width: fit-content; 
+}
+
+body{
+    background-image: url(../images/crystal-room.jpg);
+    background-repeat: no-repeat;
+}
+.wins{
+    background-color: deeppink;
+    width: fit-content; 
+}
+.loses{
+    background-color: firebrick;
+    width: fit-content; 
+
+    
+}

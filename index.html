@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Game Instructions -->
+    <h1 class="h1">Crystal Collector</h1>
+    <p class="intro">You will be given a random number at the start of the game.
+    There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
+    You win the game by matching your total score to a random numnber, 
+    you lose the game if your total score goes about the random number
+    The value of each crystal is hidden from you until you click on it.
+    Each time when the games starts, the game will change the values of each crystal. </p>
+
+
+    <h1>Number to Guess: <span id="number-to-guess" data-currentGuess="0"></span></h1>
+    <h1>So far you've guessed: <span id="number-to-guesses" data-currentGuess="0"></span></h1>
+
+    <img src="assets/images/diamond.jpg" alt="diamond" data-crystalvalue="0">
+    <img src="assets/images/emerald.jpg" alt="emerald"  data-crystalvalue="0">
+    <img src="assets/images/gold.jpg" alt="gold"  data-crystalvalue="0">
+    <img src="assets/images/ruby.jpg" alt="ruby"  data-crystalvalue="0">
+
+    <h1>Wins: <span id="number-of-wins" data-wins="0">0</span></h1>
+    <h1>Loses: <span id="number-of-loses" data-loses="0">0</span></h1>
+
+    
+
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
